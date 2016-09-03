@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RestaurantListModel.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"Hello!");
+    [[RestaurantListModel sharedInstance] updateRestaurantsNearCurrentLocation];
     return YES;
 }
 
@@ -42,4 +45,14 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    // Check the calling application Bundle ID
+    NSLog(@"Calling Application Bundle ID: %@", sourceApplication);
+    NSLog(@"URL scheme:%@", [url scheme]);
+    NSLog(@"URL query: %@", [url query]);
+        
+    return NO;
+}
 @end

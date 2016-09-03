@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		388C1BC066BCA0118054F019 /* libPods-Assignment1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 657D1F8C4A3FCCF5EFE327DE /* libPods-Assignment1.a */; };
+		40CBE24A9B3D1B9ADE2BEC6B /* libPods-Assignment1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F276FBCDBF8D722455032E /* libPods-Assignment1Tests.a */; };
+		441C3E0A1C786F6400715CB4 /* FourSquareKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 441C3E091C786F6400715CB4 /* FourSquareKitTests.m */; };
+		4482D7901C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482D78D1C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.m */; };
+		4482D7911C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482D78F1C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.m */; };
+		4482D7951C787FC00059FEBD /* RestaurantListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482D7941C787FC00059FEBD /* RestaurantListModel.m */; };
+		4482D7981C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482D7971C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.m */; };
+		4482D79B1C7884A00059FEBD /* RestaurantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482D79A1C7884A00059FEBD /* RestaurantModel.m */; };
+		4482D79F1C78887E0059FEBD /* RestaurantModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482D79E1C78887D0059FEBD /* RestaurantModelTableViewCell.m */; };
 		44CBAA761C78609D00809FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA751C78609D00809FF7 /* main.m */; };
 		44CBAA791C78609D00809FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA781C78609D00809FF7 /* AppDelegate.m */; };
-		44CBAA7C1C78609D00809FF7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA7B1C78609D00809FF7 /* FirstViewController.m */; };
-		44CBAA7F1C78609D00809FF7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA7E1C78609D00809FF7 /* SecondViewController.m */; };
+		44CBAA7C1C78609D00809FF7 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA7B1C78609D00809FF7 /* MapViewController.m */; };
+		44CBAA7F1C78609D00809FF7 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA7E1C78609D00809FF7 /* ListViewController.m */; };
 		44CBAA821C78609D00809FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CBAA801C78609D00809FF7 /* Main.storyboard */; };
 		44CBAA841C78609D00809FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CBAA831C78609D00809FF7 /* Assets.xcassets */; };
 		44CBAA871C78609D00809FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CBAA851C78609D00809FF7 /* LaunchScreen.storyboard */; };
 		44CBAA921C78609D00809FF7 /* Assignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA911C78609D00809FF7 /* Assignment1Tests.m */; };
 		44CBAA9D1C78609D00809FF7 /* Assignment1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CBAA9C1C78609D00809FF7 /* Assignment1UITests.m */; };
+		44CBAAAB1C78617500809FF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CBAAAA1C78617500809FF7 /* MapKit.framework */; };
+		44CBAAAD1C786C6700809FF7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 44CBAAAC1C786C6700809FF7 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +47,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		441C3E091C786F6400715CB4 /* FourSquareKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourSquareKitTests.m; sourceTree = "<group>"; };
+		4465721F1C78B415000AE069 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		4482D78B1C7873F50059FEBD /* UXRAsyncTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UXRAsyncTesting.h; sourceTree = "<group>"; };
+		4482D78C1C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UXRFourSquarePhotoModel+Validation.h"; sourceTree = "<group>"; };
+		4482D78D1C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UXRFourSquarePhotoModel+Validation.m"; sourceTree = "<group>"; };
+		4482D78E1C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UXRFourSquareRestaurantModel+Validations.h"; sourceTree = "<group>"; };
+		4482D78F1C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UXRFourSquareRestaurantModel+Validations.m"; sourceTree = "<group>"; };
+		4482D7931C787FC00059FEBD /* RestaurantListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantListModel.h; sourceTree = "<group>"; };
+		4482D7941C787FC00059FEBD /* RestaurantListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantListModel.m; sourceTree = "<group>"; };
+		4482D7961C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UXRFourSquareRestaurantModel+Validations.h"; path = "Assignment1Tests/UXRFourSquareRestaurantModel+Validations.h"; sourceTree = SOURCE_ROOT; };
+		4482D7971C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UXRFourSquareRestaurantModel+Validations.m"; path = "Assignment1Tests/UXRFourSquareRestaurantModel+Validations.m"; sourceTree = SOURCE_ROOT; };
+		4482D7991C7884A00059FEBD /* RestaurantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantModel.h; sourceTree = "<group>"; };
+		4482D79A1C7884A00059FEBD /* RestaurantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantModel.m; sourceTree = "<group>"; };
+		4482D79D1C78887D0059FEBD /* RestaurantModelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantModelTableViewCell.h; sourceTree = "<group>"; };
+		4482D79E1C78887D0059FEBD /* RestaurantModelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantModelTableViewCell.m; sourceTree = "<group>"; };
 		44CBAA711C78609D00809FF7 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CBAA751C78609D00809FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44CBAA771C78609D00809FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44CBAA781C78609D00809FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44CBAA7A1C78609D00809FF7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		44CBAA7B1C78609D00809FF7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		44CBAA7D1C78609D00809FF7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		44CBAA7E1C78609D00809FF7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		44CBAA7A1C78609D00809FF7 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		44CBAA7B1C78609D00809FF7 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		44CBAA7D1C78609D00809FF7 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		44CBAA7E1C78609D00809FF7 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		44CBAA811C78609D00809FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44CBAA831C78609D00809FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44CBAA861C78609D00809FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +80,14 @@
 		44CBAA981C78609D00809FF7 /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CBAA9C1C78609D00809FF7 /* Assignment1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment1UITests.m; sourceTree = "<group>"; };
 		44CBAA9E1C78609D00809FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CBAAAA1C78617500809FF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		44CBAAAC1C786C6700809FF7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6566A98C1E1AAE1A7E474356 /* Pods-Assignment1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment1/Pods-Assignment1.debug.xcconfig"; sourceTree = "<group>"; };
+		657D1F8C4A3FCCF5EFE327DE /* libPods-Assignment1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Assignment1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F276FBCDBF8D722455032E /* libPods-Assignment1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Assignment1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CACFE31989ADF9A7BD4670 /* Pods-Assignment1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment1Tests/Pods-Assignment1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A677850774B86CF96A110C66 /* Pods-Assignment1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment1/Pods-Assignment1.release.xcconfig"; sourceTree = "<group>"; };
+		B645ACB0FEAD55F689C2348B /* Pods-Assignment1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment1Tests/Pods-Assignment1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CBAAAB1C78617500809FF7 /* MapKit.framework in Frameworks */,
+				388C1BC066BCA0118054F019 /* libPods-Assignment1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CBE24A9B3D1B9ADE2BEC6B /* libPods-Assignment1Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +118,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356567C724DCA729A13BD3A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				657D1F8C4A3FCCF5EFE327DE /* libPods-Assignment1.a */,
+				94F276FBCDBF8D722455032E /* libPods-Assignment1Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4482D7921C787FAB0059FEBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4482D7961C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.h */,
+				4482D7971C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.m */,
+				4482D7931C787FC00059FEBD /* RestaurantListModel.h */,
+				4482D7941C787FC00059FEBD /* RestaurantListModel.m */,
+				4482D7991C7884A00059FEBD /* RestaurantModel.h */,
+				4482D79A1C7884A00059FEBD /* RestaurantModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4482D79C1C7888670059FEBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4482D79D1C78887D0059FEBD /* RestaurantModelTableViewCell.h */,
+				4482D79E1C78887D0059FEBD /* RestaurantModelTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		44CBAA681C78609D00809FF7 = {
 			isa = PBXGroup;
 			children = (
+				4465721F1C78B415000AE069 /* Readme.txt */,
+				44CBAAAA1C78617500809FF7 /* MapKit.framework */,
 				44CBAA731C78609D00809FF7 /* Assignment1 */,
 				44CBAA901C78609D00809FF7 /* Assignment1Tests */,
 				44CBAA9B1C78609D00809FF7 /* Assignment1UITests */,
 				44CBAA721C78609D00809FF7 /* Products */,
+				44CBAAAC1C786C6700809FF7 /* Podfile */,
+				621EDEDCF06335FBA6161C81 /* Pods */,
+				356567C724DCA729A13BD3A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +177,14 @@
 		44CBAA731C78609D00809FF7 /* Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				4482D7921C787FAB0059FEBD /* Model */,
+				4482D79C1C7888670059FEBD /* View */,
 				44CBAA771C78609D00809FF7 /* AppDelegate.h */,
 				44CBAA781C78609D00809FF7 /* AppDelegate.m */,
-				44CBAA7A1C78609D00809FF7 /* FirstViewController.h */,
-				44CBAA7B1C78609D00809FF7 /* FirstViewController.m */,
-				44CBAA7D1C78609D00809FF7 /* SecondViewController.h */,
-				44CBAA7E1C78609D00809FF7 /* SecondViewController.m */,
+				44CBAA7A1C78609D00809FF7 /* MapViewController.h */,
+				44CBAA7B1C78609D00809FF7 /* MapViewController.m */,
+				44CBAA7D1C78609D00809FF7 /* ListViewController.h */,
+				44CBAA7E1C78609D00809FF7 /* ListViewController.m */,
 				44CBAA801C78609D00809FF7 /* Main.storyboard */,
 				44CBAA831C78609D00809FF7 /* Assets.xcassets */,
 				44CBAA851C78609D00809FF7 /* LaunchScreen.storyboard */,
@@ -131,6 +206,12 @@
 			isa = PBXGroup;
 			children = (
 				44CBAA911C78609D00809FF7 /* Assignment1Tests.m */,
+				4482D78B1C7873F50059FEBD /* UXRAsyncTesting.h */,
+				441C3E091C786F6400715CB4 /* FourSquareKitTests.m */,
+				4482D78C1C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.h */,
+				4482D78D1C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.m */,
+				4482D78E1C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.h */,
+				4482D78F1C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.m */,
 				44CBAA931C78609D00809FF7 /* Info.plist */,
 			);
 			path = Assignment1Tests;
@@ -145,6 +226,17 @@
 			path = Assignment1UITests;
 			sourceTree = "<group>";
 		};
+		621EDEDCF06335FBA6161C81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6566A98C1E1AAE1A7E474356 /* Pods-Assignment1.debug.xcconfig */,
+				A677850774B86CF96A110C66 /* Pods-Assignment1.release.xcconfig */,
+				B645ACB0FEAD55F689C2348B /* Pods-Assignment1Tests.debug.xcconfig */,
+				A0CACFE31989ADF9A7BD4670 /* Pods-Assignment1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44CBAAA11C78609D00809FF7 /* Build configuration list for PBXNativeTarget "Assignment1" */;
 			buildPhases = (
+				37935253AFDCA9F953079700 /* Check Pods Manifest.lock */,
 				44CBAA6D1C78609D00809FF7 /* Sources */,
 				44CBAA6E1C78609D00809FF7 /* Frameworks */,
 				44CBAA6F1C78609D00809FF7 /* Resources */,
+				FB621036043A2AD9D1540AD9 /* Embed Pods Frameworks */,
+				746844A22587FB88803C08C6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44CBAAA41C78609D00809FF7 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */;
 			buildPhases = (
+				699F57ECF377948A9820A65E /* Check Pods Manifest.lock */,
 				44CBAA891C78609D00809FF7 /* Sources */,
 				44CBAA8A1C78609D00809FF7 /* Frameworks */,
 				44CBAA8B1C78609D00809FF7 /* Resources */,
+				14D724E505D6EA49BF849B03 /* Embed Pods Frameworks */,
+				672C1E69D0108D4E54B73176 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +310,7 @@
 				TargetAttributes = {
 					44CBAA701C78609D00809FF7 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WQ9J889724;
 					};
 					44CBAA8C1C78609D00809FF7 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -250,6 +349,7 @@
 			files = (
 				44CBAA871C78609D00809FF7 /* LaunchScreen.storyboard in Resources */,
 				44CBAA841C78609D00809FF7 /* Assets.xcassets in Resources */,
+				44CBAAAD1C786C6700809FF7 /* Podfile in Resources */,
 				44CBAA821C78609D00809FF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,14 +370,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14D724E505D6EA49BF849B03 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment1Tests/Pods-Assignment1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37935253AFDCA9F953079700 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		672C1E69D0108D4E54B73176 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment1Tests/Pods-Assignment1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699F57ECF377948A9820A65E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		746844A22587FB88803C08C6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment1/Pods-Assignment1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB621036043A2AD9D1540AD9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Assignment1/Pods-Assignment1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44CBAA6D1C78609D00809FF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CBAA7F1C78609D00809FF7 /* SecondViewController.m in Sources */,
+				4482D79B1C7884A00059FEBD /* RestaurantModel.m in Sources */,
+				44CBAA7F1C78609D00809FF7 /* ListViewController.m in Sources */,
+				4482D79F1C78887E0059FEBD /* RestaurantModelTableViewCell.m in Sources */,
 				44CBAA791C78609D00809FF7 /* AppDelegate.m in Sources */,
-				44CBAA7C1C78609D00809FF7 /* FirstViewController.m in Sources */,
+				44CBAA7C1C78609D00809FF7 /* MapViewController.m in Sources */,
+				4482D7951C787FC00059FEBD /* RestaurantListModel.m in Sources */,
+				4482D7981C7882D70059FEBD /* UXRFourSquareRestaurantModel+Validations.m in Sources */,
 				44CBAA761C78609D00809FF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +483,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4482D7911C78769C0059FEBD /* UXRFourSquareRestaurantModel+Validations.m in Sources */,
 				44CBAA921C78609D00809FF7 /* Assignment1Tests.m in Sources */,
+				441C3E0A1C786F6400715CB4 /* FourSquareKitTests.m in Sources */,
+				4482D7901C78769C0059FEBD /* UXRFourSquarePhotoModel+Validation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,28 +617,33 @@
 		};
 		44CBAAA21C78609D00809FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6566A98C1E1AAE1A7E474356 /* Pods-Assignment1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Assignment1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pi.Assignment1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pi.Assignment1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		44CBAAA31C78609D00809FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A677850774B86CF96A110C66 /* Pods-Assignment1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Assignment1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pi.Assignment1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pi.Assignment1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		44CBAAA51C78609D00809FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B645ACB0FEAD55F689C2348B /* Pods-Assignment1Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Assignment1Tests/Info.plist;
@@ -451,6 +656,7 @@
 		};
 		44CBAAA61C78609D00809FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CACFE31989ADF9A7BD4670 /* Pods-Assignment1Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Assignment1Tests/Info.plist;
@@ -504,6 +710,7 @@
 				44CBAAA31C78609D00809FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44CBAAA41C78609D00809FF7 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +719,7 @@
 				44CBAAA61C78609D00809FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44CBAAA71C78609D00809FF7 /* Build configuration list for PBXNativeTarget "Assignment1UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +728,7 @@
 				44CBAAA91C78609D00809FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

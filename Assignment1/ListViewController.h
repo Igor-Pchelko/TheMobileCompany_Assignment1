@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ListViewController.h
 //  Assignment1
 //
 //  Created by Igor Pchelko on 20/02/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface ListViewController : UIViewController
 
 
 @end

@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MapViewController.h
 //  Assignment1
 //
 //  Created by Igor Pchelko on 20/02/16.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface FirstViewController : UIViewController
+@interface MapViewController : UIViewController
 
 
 @end
