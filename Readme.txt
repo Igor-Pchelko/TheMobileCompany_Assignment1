@@ -1,3 +1,5 @@
+Test app for http://themobilecompany.com/
+
 Connect to the foursquare API and retrieve the 10 nearest restaurants to your current location, displaying them in a map and in a list
 -------------------------
 
